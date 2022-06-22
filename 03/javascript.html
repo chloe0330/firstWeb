@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <style></style>
+    <script src="javascript2.js"></script>
+    <title>javascript</title>
+</head>
+<body>
+    <input type="button"value="Hello world"onclick="alert(Hellow world)"/>
+    <br>
+    <input type="button"value="Hello world" id="hw"/>
+    <input type="button"value="현재시각" id="time"/>
+    <script type="text/javascript">
+        var hw = document.getElementById('hw');
+        hw.addEventListener('click', function(){
+            alert('hello world');
+        });
+        
+
+        var time = document.getElementById('time');
+        time.addEventListener('click', function(){
+            var date = new Date();
+            alert(date);
+        });
+
+    </script>
+    <input type="button" value="다른파일" id="other"/>
+    <script type="text/javascript" src="javascript.js"></script>
+    <br>
+    <input type="button" value="head에서 부르기" id = "head"/>
+
+
+</body>
+</html>
