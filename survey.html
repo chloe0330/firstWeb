@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="Ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설문조사</title>
+</head>
+<body>
+    <h1>학교 설문조사</h1>
+    <from>
+        이름 : <input type="text" placeholder="이름을 입력해 주세요."><br><br>
+        주소 : <input type="text" placeholder="여의도"><br><br>
+        학교 : <input type="text" placeholder="여의도 초등학교"><br><br>
+        성별 : <input type="radio" name="gender" value="M"> 남
+         <input type="radio" name="gender" value="F" checked > 여
+
+         <br><br>
+         전화번호 앞자리 :
+        <select name="phone">
+            <option>010</option>
+            <option>016</option>
+            <option>017</option>
+            <option>02</option>
+        </select><br><br>
+        좋아하는 과목은?
+        <input type="checkBox"name="subject" value="koran">국어
+        <input type="checkBox"name="subject" value="math">수학
+        <input type="checkBox"name="subject" value="english">영어
+        <input type="checkBox"name="subject" value="coding">코딩
+        <input type="checkBox"name="subject" value="spanish" disabled>스페인어
+        <br><br>
+        아이디 :<input type="text"  placeholder="아이디"><br><br>
+        pw : <input type="password"  placeholder="패스워드"><br><br>
+        프로필 이미지 업로드 : <br>  
+        <input type="file" name="upload" accept="image/*"><br><br>
+        <textarea rows="20" cols="50" placeholder="memo" ></textarea><br><br>
+        <input type="button" name="btn" value="버튼" onclick="alert(hi)"><br><br>
+        <input type="submit" name="submit" value="전송"><br><br>
+
+    </from>
+
+</body>
+</html>

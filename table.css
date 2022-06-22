@@ -1,0 +1,17 @@
+
+table,th, td
+{
+    border : 1px solid black
+}
+ th
+{
+    background-color :rgb(255, 240, 153);
+}
+#first
+{
+    color: aqua;
+}
+.yellow
+{
+    color: yellowgreen;
+}
