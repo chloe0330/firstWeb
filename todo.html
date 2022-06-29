@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <style>
+        body {
+    
+           background-color:pink
+            
+           }
+
+        h1{
+            color:rgb(211, 139, 211)
+        }
+
+        ul{
+            font-size: 20px;
+        }
+        button {
+            background-color: aqua;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <h1>TO DO LIST</h1>
+    <input type="text" id="input">
+    <button type="button" id="button">입력</button>
+    <ul id="list">
+        <li id ="li1"><input type="checkbox" onclick ="clickCheckbox(1)"> TO DO LIST 웹페이지 만들기<button type="button" style="float: right;" onclick="removeTodo(1)">삭제</button></li>
+    </ul>
+    <script src="app.js"></script>
+</body>
+</html>
